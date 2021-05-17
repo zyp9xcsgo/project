@@ -1,0 +1,19 @@
+{
+  "name": "zypnix-first",
+  "version": "1.0.1",
+  "description": "this is first npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nest",
+    "high",
+    "school"
+  ],
+  "author": "Nest Students",
+  "license": "ISC",
+  "dependencies": {
+    "react-router-dom": "^5.2.0"
+  }
+}

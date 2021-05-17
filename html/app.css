@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+}
+
+.columns {
+  display: flex;
+}
+.column {
+  width: 300px;
+}
+
+.columns h1 {
+  border: solid 1px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: solid 1px;
+  padding: 10px 20px;
+  outline: none;
+  font-size: 18px;
+}

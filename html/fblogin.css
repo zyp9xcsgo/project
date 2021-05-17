@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    background-color: #f7f7f7;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background-color: #ffffff;
+    height: 492px;
+    width: 432px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input {
+    margin: 5px;
+    background-color: #ced3db;
+    padding: 5px 5px;
+    font-size: 15px;
+    border-width: 1px;
+}
+a {
+    display: flex;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-shadow: none;
+    text-decoration: none;
+    align-items: center;
+}
+select {
+    border-radius: 4px;
+    color: #1c1e21;
+    height: 36px;
+    font-size: 15px;
+    padding: 5px 40px;
+}
+.huis {
+    display: flex;
+    font-size: 15px;
+}
+label {
+    border: 1px solid gray;
+    padding: 5px 35px;
+}
+.ggname {
+    border: none;
+    display: flex;
+    outline: none;
+    color: #ced3db;
+    flex-direction: column;
+}
+.name {
+    border: none;
+    display: flex;
+    outline: none;
+    color: #ced3db;
+}
+.tovch {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+h3 {
+  font-weight: 100;  
+}
